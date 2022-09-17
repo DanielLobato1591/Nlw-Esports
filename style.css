@@ -14,7 +14,7 @@ ul {
 
 body {  
 
-    background-image: url(./Imagens/bg.jpg);
+    background-image: url(./Imagens/estrelas1.5.png);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -75,6 +75,16 @@ main {
 
 }
 
+.mainprime {
+
+    max-width: 845px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+   
+}
+
 section {
 
     color: white;
@@ -86,7 +96,7 @@ section {
 
 section div {
 
-    background-color: #2A2634;
+    background-color: #19181d;
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
@@ -151,7 +161,7 @@ section ul li:hover {
 
 }
 
-/* Animations */
+/* ------------------ Animations -----------------*/
 
 header div {
 
@@ -181,6 +191,15 @@ main section:nth-child(3){
 
 }
 
+main section {
+
+    animation: neon 3s alternate infinite ease-in-out;
+    --cor-neon:#1e1b4b;
+    --cor-neon:#482175;
+}
+
+
+
 @keyframes fromTop {
 
     from {
@@ -198,7 +217,7 @@ main section:nth-child(3){
     } 
 }
 
-@keyframes fromBottom  {
+@keyframes fromBottom {
 
     from {
 
@@ -215,4 +234,14 @@ main section:nth-child(3){
 
 }
 
+@keyframes  neon {
 
+    from {
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+}
+
+    to {
+        filter: drop-shadow(0 0 10px var(--cor-neon));
+}
+
+}
