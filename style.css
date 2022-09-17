@@ -161,6 +161,27 @@ section ul li:hover {
 
 }
 
+.Movielist img {
+
+    border-radius: 8px;
+    width: 90px;
+
+}
+
+.Booklist {
+    border-radius: 50%;
+    width: 70px;
+    border: 1px solid #443E54;
+
+}
+
+.midialist {
+
+    padding-top: 5px;
+    margin: auto;
+
+}
+
 /* ------------------ Animations -----------------*/
 
 header div {
