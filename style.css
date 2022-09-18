@@ -18,7 +18,7 @@ body {
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-color: #121214;
+    background-color: #0d041d;
 
 }
 
@@ -40,7 +40,7 @@ header  div {
         
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #130836 0%, #070161 50.52%, #1e0030 100%);
 
     border-radius: 50%;
     padding: 4px;
@@ -88,7 +88,7 @@ main {
 section {
 
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #130836 0%, #070161 50.52%, #1e0030 100%);
     padding-top: 4px;
     border-radius: 10px;
 
@@ -215,9 +215,9 @@ main section:nth-child(3){
 
 main section div {
 
-    animation: neon 5s alternate infinite ease-in-out backwards;
+    animation: neon 10s alternate infinite ease-in-out backwards;
     --cor-neon:#1e1b4b;
-    --cor-neon:#482175;
+    --cor-neon:#ffffff;
 }
 
 
