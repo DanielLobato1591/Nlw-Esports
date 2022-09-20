@@ -36,7 +36,7 @@ header {
 
 }
 
-header  div, booklist {
+header  div {
         
     width: 120px;
     margin: auto;
@@ -164,6 +164,7 @@ section ul li:hover {
 .booklist img {
 
     border-radius: 8px;
+    height: 120px;
     width: 90px;
 
 }
